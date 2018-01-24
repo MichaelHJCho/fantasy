@@ -1,0 +1,116 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+/*
+.bg {
+  background-image: url("../images/ertz.jpg");
+
+
+  height: 100%;
+
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/
+.headers {
+  position: absolute;
+  left: 65%;
+  top: 10%;
+  color: black;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  position: absolute;
+  left: 13%;
+  top: 50%;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+a:link, a:visited {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+a:hover {
+  color: black;
+}
+
+.highlight {
+    width: 0px;
+    background: white;
+    transition: width .5s;
+}
+
+.highlight:hover {
+  width: 100%;
+  background: black;
+}
+
+a:hover {
+  color:white;
+}
+
+@media screen and (max-width: 992px) {
+  #container {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .headers {
+    position: static;
+    text-align: center;
+  }
+
+  ul {
+    position: static;
+  }
+
+  h1 {
+    top: 50%;
+    font-size: 24pt;
+    padding: 5px;
+  }
+
+  ul li {
+    padding: 5px;
+    /* display:inline-block; */
+  }
+
+  a:link {
+    font-size: 20pt;
+    text-align: center;
+    margin: auto;
+  }
+
+  .highlight {
+    text-align: center;
+    margin:auto;
+  }
+  /* a:before {
+    position: absolute;
+ width: 100%;
+ height: 2px;
+ bottom: 0;
+ left: 0;
+  } */
+
+}

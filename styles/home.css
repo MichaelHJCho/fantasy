@@ -77,6 +77,11 @@ a:link, a:visited {
   li {
     transition: background-color 1s;
   }
+
+  a:active {
+    color: white;
+    transition: color .1s;
+  }
 }
 
 @media screen and (max-width: 992px) {
